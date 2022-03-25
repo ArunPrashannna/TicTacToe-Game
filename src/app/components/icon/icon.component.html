@@ -1,0 +1,11 @@
+<div class="icon-container" [ngSwitch]="icon">
+  <Button *ngSwitchCase="'circle'" class="icon-btn">
+    <fa-icon [icon]="faCircle"></fa-icon>
+  </Button>
+  <Button *ngSwitchCase="'cross'" class="icon-btn">
+    <fa-icon [icon]="faTimes"></fa-icon>
+  </Button>
+  <Button *ngSwitchCase="'pen'" class="icon-btn">
+    <fa-icon [icon]="faPen"></fa-icon>
+  </Button>
+</div>
