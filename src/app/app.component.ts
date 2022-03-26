@@ -12,6 +12,7 @@ export class AppComponent {
   player1=true;
   player=1;
   winnerMessage="";
+  //card-array
   array=["pen","pen","pen","pen","pen","pen","pen","pen","pen"];
   hideResetDiv: boolean = true;
 
