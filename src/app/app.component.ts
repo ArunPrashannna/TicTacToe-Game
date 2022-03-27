@@ -8,7 +8,7 @@ import { ToastrService } from 'ngx-toastr';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tic-tac-toe-game ';
+  title = ' tic-tac-toe-game ';
   player1=true;
   player=1;
   winnerMessage="";
